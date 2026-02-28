@@ -107,12 +107,7 @@ android {
 
     buildToolsVersion = '34.0.0'
 }
-android {
-    defaultConfig {
-        resValue "string", "app_name", "Launch App"
-        // Update other resValue strings accordingly...
-        // all resValue strings modified to 'com.piebite.studio.javalauncher'
-    }
+
 }
 
 // Continue with existing configurations...
