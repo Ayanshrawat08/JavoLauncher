@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomDrawableButton">
+        <attr name="drawableEndSize" format="dimension"/>
+        <attr name="drawableEndIntegerScaling" format="integer"/>
+    </declare-styleable>
+
+</resources>
