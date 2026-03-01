@@ -37,7 +37,7 @@ android {
         versionCode 10000000
         versionName getVersionName()
         multiDexEnabled true
-        resValue 'string', 'curseforge_api_key', getCFApiKey()
+        resValue 'string', 'curseforge_api_key', '"dummy_key"'
     }
 
     buildTypes {
