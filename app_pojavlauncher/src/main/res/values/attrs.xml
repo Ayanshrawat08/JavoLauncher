@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="CustomDrawableButton">
-        <attr name="drawableEndSize" format="dimension"/>
-        <attr name="drawableEndIntegerScaling" format="integer"/>
-    </declare-styleable>
+    <!-- ===================================================== -->
+    <!-- Custom Drawable Attributes (Used in Your Layouts)     -->
+    <!-- ===================================================== -->
+
+    <!-- Size attributes -->
+    <attr name="drawableStartSize" format="dimension" />
+    <attr name="drawableEndSize" format="dimension" />
+
+    <!-- Padding attributes -->
+    <attr name="drawableStartPadding" format="dimension" />
+    <attr name="drawableEndPadding" format="dimension" />
+
+    <!-- Integer scaling (scale factor like 1, 2, 3) -->
+    <attr name="drawableStartIntegerScaling" format="integer" />
+    <attr name="drawableEndIntegerScaling" format="integer" />
+
+    <!-- If you want boolean version instead, uncomment below and use it -->
+    <!--
+    <attr name="drawableStartIntegerScaling" format="boolean" />
+    <attr name="drawableEndIntegerScaling" format="boolean" />
+    -->
 
 </resources>
