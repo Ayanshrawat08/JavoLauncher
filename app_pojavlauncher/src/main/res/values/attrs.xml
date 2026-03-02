@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- ===================================================== -->
-    <!-- Custom Drawable Attributes (Used in Your Layouts)     -->
-    <!-- ===================================================== -->
+    <!-- ============================================= -->
+    <!-- Custom Drawable Attributes                    -->
+    <!-- ============================================= -->
 
-    <!-- Size attributes -->
+    <!-- Drawable size -->
     <attr name="drawableStartSize" format="dimension" />
     <attr name="drawableEndSize" format="dimension" />
 
-    <!-- Padding attributes -->
+    <!-- Drawable padding -->
     <attr name="drawableStartPadding" format="dimension" />
     <attr name="drawableEndPadding" format="dimension" />
 
-    <!-- Integer scaling (scale factor like 1, 2, 3) -->
-    <attr name="drawableStartIntegerScaling" format="integer" />
-    <attr name="drawableEndIntegerScaling" format="integer" />
-
-    <!-- If you want boolean version instead, uncomment below and use it -->
-    <!--
+    <!-- Drawable scaling toggle (TRUE / FALSE) -->
     <attr name="drawableStartIntegerScaling" format="boolean" />
     <attr name="drawableEndIntegerScaling" format="boolean" />
-    -->
 
 </resources>
