@@ -31,13 +31,13 @@ import net.kdt.pojavlaunch.prefs.LauncherPreferences;
 import net.kdt.pojavlaunch.profiles.ProfileAdapter;
 import net.kdt.pojavlaunch.profiles.ProfileAdapterExtra;
 
-import fr.spse.extended_view.ExtendedTextView;
+import androidx.appcompat.widget.AppCompatTextView;
 
 /**
  * A class implementing custom spinner like behavior, notably:
  * dropdown popup view with a custom direction.
  */
-public class mcVersionSpinner extends ExtendedTextView {
+public class mcVersionSpinner extends AppCompatTextView {
     private static final int VERSION_SPINNER_PROFILE_CREATE = 0;
     public mcVersionSpinner(@NonNull Context context) {
         super(context);
